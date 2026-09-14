@@ -1,0 +1,14 @@
+# Add a verified funding destination before announcing sponsorship publicly.
+# github: magnexis
+# custom: ["https://example.com/support"]
+github: []
+patreon: []
+open_collective: []
+ko_fi: ''
+tidelift: ''
+community_bridge: ''
+liberapay: ''
+issuehunt: ''
+otechie: ''
+lfx_crowdfunding: ''
+custom: []

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AUC telemetry event",
+  "type": "object",
+  "required": ["timestamp", "system", "eventType", "revision"],
+  "properties": {
+    "timestamp": { "type": "string", "format": "date-time" },
+    "system": { "enum": ["air", "water", "phyto-breeze", "sentinel", "power"] },
+    "eventType": { "type": "string" },
+    "revision": { "type": "string" },
+    "measurements": { "type": "object" }
+  },
+  "additionalProperties": false
+}

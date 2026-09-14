@@ -1,0 +1,4 @@
+item_id,system,description,manufacturer_part_number,approved_supplier,quantity,unit,material_or_rating,document_reference,inspection_requirement,status
+AIR-BOM-001,AUC-Air,,,,,,,AIR-FAB-001,,Open
+WTR-BOM-001,AUC-Water,,,,,,,WTR-GA-001,,Open
+PB-BOM-001,Phyto-Breeze,,,,,,,PB-ICD-001,,Open

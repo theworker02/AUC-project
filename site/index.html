@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AUC engineering documentation portal for independent air, water, and industrial oxygen systems.">
+  <title>AUC Engineering Portal</title>
+  <link rel="icon" type="image/svg+xml" href="assets/auc-logo.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="#top"><img src="assets/auc-logo.svg" alt="AUC"> <span>Engineering Portal</span></a><nav><a href="#systems">Systems</a><a href="#release">Release control</a><a href="#documents">Documents</a></nav></header>
+  <main id="top">
+    <section class="masthead"><div><p class="eyebrow">Version 1.2.0 · Controlled design basis</p><h1>Independent systems.<br>Explicit engineering boundaries.</h1><p class="lede">A single source for the AUC-Air, AUC-Water, Phyto-Breeze, Sentinel, and Power architecture, evidence requirements, interfaces, and release gates.</p></div><aside><strong>Current portfolio status</strong><p>Preliminary engineering documentation. No construction package is released.</p><span>v1.2.0</span></aside></section>
+    <section id="systems"><p class="eyebrow">Portfolio modules</p><div class="systems">
+      <article><span class="tag air">AIR</span><h2>AUC-Air</h2><p>Fine-particle capture and defined gas-phase treatment with measured byproduct control.</p><ul><li>Cyclone: coarse-load management only</li><li>PAN: fine PM performance owner</li><li>UVA PCO: requires independent qualification</li></ul></article>
+      <article><span class="tag water">WATER</span><h2>AUC-Water</h2><p>Lowest-energy source selection: condensate and rain first; AWG only after climate and pilot evidence.</p><ul><li>Non-potable utility water is the initial boundary</li><li>Yield stated with climate and energy data</li><li>PEM water requires separate OEM-qualified DI treatment</li></ul></article>
+      <article><span class="tag oxygen">O₂</span><h2>Phyto-Breeze</h2><p>Standalone PEM oxygen-production package with physically isolated hydrogen and oxygen process boundaries.</p><ul><li>≥25 kg verified delivered O₂ / 3 h target</li><li>H₂ and O₂ systems never share headers</li><li>Construction requires OEM and site safety package</li></ul></article>
+    </div></section>
+    <section id="release" class="release"><p class="eyebrow">Release control</p><h2>What a manufacturer receives—and what remains open</h2><div class="releasegrid"><div><h3>Required before procurement</h3><ol><li>Approved GA drawings and 3D model</li><li>P&amp;ID, line list, I/O and cause/effect matrix</li><li>Electrical one-line, load, grounding, and cable schedules</li><li>Approved vendor datasheets, inspection plan, FAT and SAT</li><li>Site permits and applicable process-safety approvals</li></ol></div><div><h3>Current hold points</h3><ol><li>AUC-Air: qualification results and final vendor data</li><li>AUC-Water: site climate, water-quality target, treatment P&amp;ID</li><li>Phyto-Breeze: OEM P&amp;ID/ICD, HAZOP/LOPA, area classification, relief and dispersion design</li></ol></div></div></section>
+    <section id="documents"><p class="eyebrow">Controlled source documents</p><h2>Engineering package</h2><div class="docs" id="doc-list"></div></section>
+  </main><footer>Project Atmospheric Ultra-Clean · Engineering documentation is configuration-controlled and must be validated at the declared operating point.</footer><script src="app.js"></script>
+</body></html>

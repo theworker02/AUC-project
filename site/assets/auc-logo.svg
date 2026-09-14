@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 180" role="img" aria-labelledby="title desc">
+  <title id="title">Project Atmospheric Ultra-Clean logo</title>
+  <desc id="desc">A blue hexagonal mark containing three independent paths representing air, water, and oxygen systems.</desc>
+  <defs><linearGradient id="field" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d4169"/><stop offset="1" stop-color="#082b49"/></linearGradient></defs>
+  <path d="M88 12 154 50v76l-66 38-66-38V50z" fill="url(#field)"/>
+  <path d="M49 67h78M49 91h78M49 115h78" stroke="#74d8df" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="50" cy="67" r="7" fill="#fff"/><circle cx="89" cy="91" r="7" fill="#fff"/><circle cx="126" cy="115" r="7" fill="#fff"/>
+  <text x="184" y="78" fill="#0b3456" font-family="Arial, Helvetica, sans-serif" font-size="43" font-weight="700" letter-spacing="2">ATMOSPHERIC</text>
+  <text x="184" y="124" fill="#0b3456" font-family="Arial, Helvetica, sans-serif" font-size="43" font-weight="700" letter-spacing="2">ULTRA-CLEAN</text>
+  <text x="186" y="151" fill="#4b7084" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="4">AUC ENVIRONMENTAL SYSTEMS</text>
+</svg>
