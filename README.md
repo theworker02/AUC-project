@@ -9,7 +9,7 @@ This project is **proprietary**. Production use, redistribution, and commercial 
 
 
 <p align="center">
-  <img src="site/assets/auc-logo.svg" alt="Atmospheric Ultra-Clean â€” AUC Environmental Systems" width="620">
+  <img src="site/assets/auc-logo.svg" alt="Atmospheric Ultra-Clean Ã¢â‚¬â€ AUC Environmental Systems" width="620">
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@ This project is **proprietary**. Production use, redistribution, and commercial 
   <img src="https://img.shields.io/badge/license-pending-627385?style=flat-square" alt="License pending">
 </p>
 
-> **v1.2.0 Â· Preliminary Engineering Documentation Release**  
+> **v1.2.0 Ã‚Â· Preliminary Engineering Documentation Release**  
 > AUC is a portfolio of independent environmental systems supported by shared evidence, telemetry, and energy planning. It is not a single combined hazardous-process machine.
 
 ## Start here
@@ -41,18 +41,18 @@ This project is **proprietary**. Production use, redistribution, and commercial 
 A modular air-treatment architecture for controlled evaluation of particulate capture and specifically declared gas-phase treatment.
 
 ```text
-weather intake â†’ coarse cyclone â†’ sealed dust drawer â†’ equalization diffuser
-â†’ PAN particle cassette â†’ TiOâ‚‚ / UVA catalytic core â†’ MnOâ‚‚ polishing cassette
-â†’ downstream EC centrifugal blower â†’ monitored discharge
+weather intake Ã¢â€ â€™ coarse cyclone Ã¢â€ â€™ sealed dust drawer Ã¢â€ â€™ equalization diffuser
+Ã¢â€ â€™ PAN particle cassette Ã¢â€ â€™ TiOÃ¢â€šâ€š / UVA catalytic core Ã¢â€ â€™ MnOÃ¢â€šâ€š polishing cassette
+Ã¢â€ â€™ downstream EC centrifugal blower Ã¢â€ â€™ monitored discharge
 ```
 
 - The cyclone is coarse debris/load management only; it does not own PM2.5 or submicron soot claims.
 - The PAN cassette owns fine-particle performance.
-- The 365 nm TiOâ‚‚/UVA configuration requires its own qualification evidence.
+- The 365 nm TiOÃ¢â€šâ€š/UVA configuration requires its own qualification evidence.
 - Corona is disabled by default and can only be considered after measured benefit and ozone-control qualification.
-- The 1,000 CFM reference module uses a nominal 600 Ã— 600 mm active microchannel area at 1.311 m/s superficial velocity.
+- The 1,000 CFM reference module uses a nominal 600 Ãƒâ€” 600 mm active microchannel area at 1.311 m/s superficial velocity.
 
-Read: [AUC-Air manufacturing plan](docs/AIR_PRELIMINARY_MANUFACTURING_PLAN.md) Â· [verification plan](docs/AUC_VERIFICATION_AND_ACCEPTANCE.md)
+Read: [AUC-Air manufacturing plan](docs/AIR_PRELIMINARY_MANUFACTURING_PLAN.md) Ã‚Â· [verification plan](docs/AUC_VERIFICATION_AND_ACCEPTANCE.md)
 
 ### AUC-Water
 
@@ -63,18 +63,18 @@ A site-resilience water program that prioritizes the lowest-energy viable source
 - DX condensation, liquid desiccant, and solid desiccant options are compared using site psychrometrics, maintenance, and total energy.
 - Captured water is never direct PEM-stack feed. Any Phyto-Breeze supply crosses a separately qualified OEM DI-water interface.
 
-Read: [AWG concept](docs/AUC_WATER_AWG_CONCEPT.md) Â· [AUC-Water manufacturing plan](docs/WTR_PRELIMINARY_MANUFACTURING_PLAN.md)
+Read: [AWG concept](docs/AUC_WATER_AWG_CONCEPT.md) Ã‚Â· [AUC-Water manufacturing plan](docs/WTR_PRELIMINARY_MANUFACTURING_PLAN.md)
 
 ### Phyto-Breeze
 
 A standalone PEM industrial oxygen-production concept. Its sole proposed product metric is verified **delivered oxygen mass** at the post-conditioning delivery boundary.
 
-- Target metric: at least 25.0 kg delivered Oâ‚‚ over three hours, evaluated with a lower one-sided 95% confidence bound.
+- Target metric: at least 25.0 kg delivered OÃ¢â€šâ€š over three hours, evaluated with a lower one-sided 95% confidence bound.
 - Hydrogen and oxygen systems remain physically separated, including conditioning, vents, relief, drains, service access, and shutdown boundaries.
 - Atmospheric oxygen release, distribution, storage, and export require separately approved site-specific process-safety and dispersion engineering.
 - The project makes no carbon sequestration, air-cleaning, ecological, or thermal-cooling equivalence claim for this module.
 
-Read: [Phyto-Breeze manufacturing plan](docs/PB_PRELIMINARY_MANUFACTURING_PLAN.md) Â· [interface control](docs/AUC_INTERFACE_CONTROL.md)
+Read: [Phyto-Breeze manufacturing plan](docs/PB_PRELIMINARY_MANUFACTURING_PLAN.md) Ã‚Â· [interface control](docs/AUC_INTERFACE_CONTROL.md)
 
 ### AUC Sentinel and AUC Power
 
@@ -128,7 +128,7 @@ Use the controlled templates for [engineering changes](00-governance/CHANGE_CONT
 
 ## Safety and claim boundary
 
-The systems described here may involve high voltage, ultraviolet radiation, ozone, industrial water treatment, oxygen, hydrogen, pressure boundaries, and rotating equipment. Follow the selected OEMâ€™s instructions, local law, permit conditions, qualified engineering practice, and formal process-safety review. Do not use preliminary documents as fabrication, commissioning, or operational instructions.
+The systems described here may involve high voltage, ultraviolet radiation, ozone, industrial water treatment, oxygen, hydrogen, pressure boundaries, and rotating equipment. Follow the selected OEMÃ¢â‚¬â„¢s instructions, local law, permit conditions, qualified engineering practice, and formal process-safety review. Do not use preliminary documents as fabrication, commissioning, or operational instructions.
 
 See [SECURITY.md](SECURITY.md) for handling sensitive control or safety information.
 
@@ -139,3 +139,7 @@ See [SECURITY.md](SECURITY.md) for handling sensitive control or safety informat
 ## Versioning
 
 The current version is [`1.2.0`](VERSION). Review [CHANGELOG.md](CHANGELOG.md) for release history and version policy.
+
+## Acquisition diligence
+
+Buyer-facing diligence materials live in [docs/acquisition/](./docs/acquisition/). Commercial licensing contact path: [COMMERCIAL.md](./COMMERCIAL.md).
